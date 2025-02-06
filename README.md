@@ -46,7 +46,7 @@ servers:
   - dns_servers:
       - 8.8.8.8
     id: ваш_сервер_id
-    name: vpneu-test
+    name: vpndemo
     nat: false
     net_gateway: false
     network: 10.80.50.0/24
