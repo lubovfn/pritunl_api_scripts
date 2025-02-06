@@ -136,7 +136,7 @@ def add_azure_routes_to_server(base_url, api_token, api_secret, server_id):
     added_routes = set()
     for route in azure_ips:
         if route in existing_routes or route in routes_to_delete:
-            print(f"🔹 Route {route} already exists or skipping.")
+            print(f" Route {route} already exists or skipping.")
         else:
             if add_route_to_server(base_url, api_token, api_secret, server_id, route):
                 added_routes.add(route)
