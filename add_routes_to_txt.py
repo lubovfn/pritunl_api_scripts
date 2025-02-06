@@ -86,7 +86,7 @@ def add_routes_from_file(base_url, api_token, api_secret, server_id):
 
     for route in routes_to_add:
         if route in existing_routes:
-            print(f"🔹 Route {route} already exists on server {server_id}, skipping.")
+            print(f"Route {route} already exists on server {server_id}, skipping.")
         else:
             add_route_to_server(base_url, api_token, api_secret, server_id, route)
 
