@@ -1,0 +1,20 @@
+api_secret: your_paste_secret
+api_token: your_paste_token
+base_url: https://your_paste_domain
+routes:
+- network:
+  - 0.0.0.0/32
+  - 10.29.80.0/24
+  - 10.33.56.0/24
+  - 10.41.55.0/24
+  - 10.79.98.0/24
+  server_id: your_serverID_pritunl
+servers:
+- dns_servers:
+  - 8.8.8.8
+  id: your_serverID_pritunl
+  name: vpndemo
+  nat: false
+  net_gateway: false
+  network: 10.80.50.0/24
+  port: 10696
