@@ -88,7 +88,7 @@ def get_azure_devops_ips():
                             for ip in entry["properties"]["addressPrefixes"]:
                                 azure_ips.add(ip)
 
-            print(f"🔹 Found {len(azure_ips)} Azure DevOps IPs from JSON file")
+            print(f" Found {len(azure_ips)} Azure DevOps IPs from JSON file")
             return azure_ips
     except json.JSONDecodeError as e:
         print(f"JSON parsing error: {e}")
