@@ -96,6 +96,7 @@ python3 get_server.py
 ### Удаление маршрутов из файла `routes_to_delete.txt`
 1. В файле `routes_to_delete.txt` укажите маршруты, которые нужно удалить.
 2. Запустите скрипт `python3 delete-route.py`.
+3. Или удаление из скрипта add-routeAZ_to_del.py для роутов azure
 
 ---
 
